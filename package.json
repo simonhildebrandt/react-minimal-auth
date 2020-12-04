@@ -1,0 +1,26 @@
+{
+  "name": "react-minimal-auth",
+  "version": "1.0.0",
+  "description": "Absolute minimum effort React Auth with react-firebaseui",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/index.js -o lib/index.js",
+    "watch": "babel -w src/index.js -o lib/index.js"
+  },
+  "dependencies": {
+    "react-firebaseui": "^4.1.0"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "peerDependencies": {
+    "firebase": "^7.14.0",
+    "react": "^16.13.1"
+  }
+}
